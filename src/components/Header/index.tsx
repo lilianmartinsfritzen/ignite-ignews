@@ -10,8 +10,8 @@ export function Header() {
         <Image 
           src="/images/logo.svg" 
           alt="ig.news"
-          width="110"
-          height="31"
+          width={110}
+          height={31}
         />
         <nav>
           <a className={styles.active}>Home</a>
